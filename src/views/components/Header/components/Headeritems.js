@@ -6,7 +6,7 @@ const Headeritems = () => {
     return (
         <>
         <div className="header">
-                <div className="header-box">
+                <div className="header-box ramesh">
                     <Headerleft />
                     <Headeright />
                 </div>
