@@ -1,0 +1,243 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+/* header */
+.header {
+    width: 100%;
+    background: #000000;
+    height: 64px;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100%;
+}
+
+.header-left .header-menu{
+    display: flex;
+    align-items: center;
+}
+
+.header-left .logo-img{
+    padding-left: 52px;
+}
+
+.header-right .profile-img{
+    padding-left: 20px;
+}
+
+
+/* sidebar */
+.sidebar{
+    width:90px;
+    float:left;
+    /* height:100vh; */
+    border-right:1px solid rgb(236, 233, 233);
+    background: #FFFFFF;
+}
+
+.side-navbar { 
+    padding-top: 64px;
+}
+
+.side-navbar ul{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    align-items: center;
+    padding: 20px;
+}
+
+.side-navbar ul li{
+    padding-bottom: 35px;
+}
+
+.side-navbar a:hover {
+    background: #CE1815;
+    border-radius: 10px;
+    padding: 9px 9px;
+}
+
+
+/* screen */
+.screen{
+    width:calc(100% - 90px);
+    float:right;
+    position: relative;
+    padding:0px 18px 0 0;
+}
+
+/* main-section */
+.main-section{
+    background: #cecfe71f;
+    border-left:1px solid #e9e9e9 ;
+    border-right:1px solid #e9e9e9 ;
+    border-top:1px solid #e9e9e9 ;
+}
+
+/* main screen */
+.main-screen .leads-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 21px 12px;
+}
+
+.main-screen .leads h2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242533;
+}
+
+.main-screen .lead-button button{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #CE1815;
+    border-radius: 20px;
+    width: 108px;
+    height: 32px;
+    border:none;
+}
+
+/* search-section */
+.main-screen .search-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 21px;
+}
+
+.main-screen .search-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-screen .search-item .box-refresh img{
+    padding-right: 24px;
+}
+
+.search-section .search-box{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 435px;
+    height: 40px;
+    border: 2px solid #BCBCC6;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+
+.search-section .search-box input{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.54);
+    border:none;
+    background:none;
+    outline:none;
+    padding-left: 10px;
+}
+
+.main-screen .search-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-screen .search-content h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 0;
+}
+
+.main-screen .arrow-img img{
+    padding-left: 24px;
+}
+
+hr{
+    color:grey;
+    /* margin-bottom:0; */
+}
+
+/* table */
+.table>:not(caption)>*>* {
+    padding: 1rem 0.5rem;
+}
+
+tbody tr,td{
+    border: 1px solid rgb(223, 217, 217);
+    color: #484964;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+table tbody .row-sky{
+    background: #F0FFF8;
+}
+
+table tbody .row-grey{
+    background: #FFF8F8;
+}
+
+/* footer */
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 20px;
+}
+
+.footer-items .footer-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #C9DBE4;
+    border-radius: 4px;
+    width: 96px;
+    height: 30px;
+    padding: 0 10px 0 7px;
+}
+
+.footer-items .footer-p p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    color: #6F6F6F;
+    margin:0;
+}
+
+.footer-items .forward-icon{
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-items .footer-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items .footer-right h2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    margin: 0;
+}
+
+.footer-items .arrow-img img{
+    padding-left: 24px;
+}
